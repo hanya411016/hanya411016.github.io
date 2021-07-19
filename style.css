@@ -21,12 +21,14 @@ section {
 nav.navbar {
   transition: 0.5s;
 }
-
+nav.navbar a.navbar-brand {
+  font-weight: 600;
+}
 nav.navbar.navbar-default.navbar-fixed-top a {
   transition-duration: 0.5s;
 }
 nav.navbar.navbar-default.navbar-fixed-top a:hover {
-  color: #67283E;
+  color: #374163;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
@@ -37,7 +39,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
   transition: 0.5s;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
-  color: #F7FDE8;
+  color: #bcd;
 }
 
 #section_title {
@@ -61,7 +63,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 #section_title .container-fluid {
   color: white;
@@ -78,7 +80,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
 
 section#section_intro {
   text-align: center;
-  background-color: #67283E;
+  background-color: #374163;
   color: #eee;
 }
 section#section_intro hr {
@@ -105,19 +107,19 @@ section#section_descript .col-sm-7 p {
   font-size: 22px;
   margin-top: 80px;
   padding: 0px 15px;
-  color: #0B446B;
+  color: #374163;
 }
 
 section#section_flowchart {
-  background-color: #F7FDE8;
+  background-color: #bcd;
   text-align: center;
 }
 section#section_flowchart h2 {
-  color: #0B446B;
+  color: #374163;
 }
 section#section_flowchart hr {
-  border: solid 2px #0B446B;
-  color: #0B446B;
+  border: solid 2px #374163;
+  color: #374163;
   max-width: 100px;
 }
 section#section_flowchart .icon {
@@ -129,7 +131,7 @@ section#section_flowchart .icon {
 }
 section#section_flowchart .icon h4 {
   transition: 0.7s;
-  color: #0B446B;
+  color: #374163;
 }
 section#section_flowchart .icon img {
   width: 100%;
@@ -163,7 +165,7 @@ section#section_detail .col-sm-4.pic2 {
   background-position: center;
 }
 section#section_detail .col-sm-4.pic3 {
-  background-image: url(https://i.pinimg.com/originals/9d/fa/8c/9dfa8c33be69e5ec50a5df3565836f26.jpg);
+  background-image: url(https://i.pinimg.com/564x/97/21/8e/97218e938dfc0b49ae0513b4b63de1e4.jpg);
   height: 280px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -179,7 +181,7 @@ section#section_detail .col-sm-4.pic4 {
 
 section#section_team {
   text-align: center;
-  background-color: #0B446B;
+  background-color: #374163;
   color: #eee;
 }
 section#section_team .col-sm-2.img, section#section_team .col-sm-3.img {
