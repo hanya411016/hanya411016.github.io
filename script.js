@@ -6,3 +6,4 @@ $(window).scroll(function(evt){
 })
 
 var s = skrollr.init();
+document.body.id = "skrollr-body"
