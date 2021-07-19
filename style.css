@@ -90,6 +90,7 @@ section#section_intro hr {
 section#section_intro .col-sm-12.features {
   margin-top: 50px;
   margin-bottom: 30px;
+  padding: 20px 0px;
 }
 section#section_intro i {
   font-size: 90px;
