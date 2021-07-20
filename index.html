@@ -12,8 +12,10 @@
 <!-- partial:index.partial.html -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-top">
   <div class="container">
-    <div class="navbar-header"><a class="navbar-brand">ForeLook</a></div>
-    <div class="navbar-collapse collapse">
+    <div class="navbar-header"><a class="navbar-brand">ForeLook</a>
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <div class="navbar-collapse collapse navHeaderCollapse">
       <div class="nav navbar-nav navbar-right">
         <li><a href="#section_intro">特色 FEATURES</a></li>
         <li><a href="#section_descript">簡介 INTRO</a></li>
@@ -25,35 +27,37 @@
   </div>
 </nav>
 <div id="skrollr-body">
-  <section id="section_title">
+  <header id="section_title">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 pic1">
-          <h1 data-0="transform: translateY(-50%)" data-500="transform: translateY(100%)">A.I. PD Foot Pressure Sensing Insole</h1>
+          <h1 data-0="transform: translateY(-50%)" data-400="transform: translateY(100%)">A.I. PD Foot Pressure Sensing Insole</h1>
           <hr/>
-          <h4> Early detect Parkinson's disease (PD) with advanced machine learning on foot pressure data</h4>
+          <h4> Early detect Parkinson's disease with advanced machine learning on foot pressure data</h4>
         </div>
       </div>
     </div>
-  </section>
+  </header>
   <section id="section_intro">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12" data-bottom-top="transform: translateY(-50px); transform: scale(1.5); opacity:0 " data-center-top="transform: translateY(0px);transform: scale(1); opacity:1">
+        <div class="col-xs-12" data-bottom-top="transform: translateY(-50px); transform: scale(1.5); opacity:0 " data-center-top="transform: translateY(0px);transform: scale(1); opacity:1">
           <h2>FEATURES</h2>
           <hr/>
         </div>
-        <div class="col-sm-12 features" data-bottom-top="transform: translateY(-50px);transform: scale(1.3); opacity:0 " data-center-top="transform: translateY(0px);transform: scale(1); opacity:1">
-          <div class="col-sm-3"><i class="fa fa-check"></i>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 features" data-bottom-top="transform: translateY(-50px);transform: scale(1.3); opacity:0 " data-center-top="transform: translateY(0px);transform: scale(1); opacity:1">
+          <div class="col-sm-3 col-xs-12"><i class="fa fa-check"></i>
             <h4>Simple installation</h4>
           </div>
-          <div class="col-sm-3"><i class="fa fa-wifi"></i>
+          <div class="col-sm-3 col-xs-12"><i class="fa fa-wifi"></i>
             <h4>Wireless transmission</h4>
           </div>
-          <div class="col-sm-3"><i class="fa fa-clock-o"></i>
+          <div class="col-sm-3 col-xs-12"><i class="fa fa-clock-o"></i>
             <h4>Checkup in 30s</h4>
           </div>
-          <div class="col-sm-3"><i class="fa fa-hourglass-start"></i>
+          <div class="col-sm-3 col-xs-12"><i class="fa fa-hourglass-start"></i>
             <h4> Sustain 14+ hours   </h4>
           </div>
         </div>
@@ -63,10 +67,10 @@
   <section id="section_descript">
     <div class="container">
       <div class="row">
-        <div class="col-sm-5 img"> 
+        <div class="col-sm-5 col-xs-10 col-xs-offset-1 col-sm-offset-0 img"> 
           <iframe class="responsive-iframe" src="https://www.youtube.com/embed/KeX5sHHrx9E" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
         </div>
-        <div class="col-sm-7" data-100-bottom="opacity: 0" data-center-top="opacity: 1">
+        <div class="col-sm-7 col-xs-12" data-100-bottom="opacity: 0" data-center-top="opacity: 1">
           <p>Unlike conventional equipment, our device provides a <strong>low-cost, low-latency, and convenient way to examine Parkinson's disease (PD).</strong> With the device, we can detect the potential symptoms of PD by daily walking as early as possible.</p>
         </div>
       </div>
@@ -79,17 +83,19 @@
           <h2>FLOW CHART</h2>
           <hr/>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 features" data-bottom-top="transform: translateY(-50px);transform: scale(1.2); opacity:0 " data-center-top="transform: translateY(0px);transform: scale(1); opacity:1">
-          <div class="col-sm-3 icon"><img src="https://i.pinimg.com/564x/2f/82/a4/2f82a4fa8e2c21ef9121827c0ce57e45.jpg" alt=""/>
+          <div class="col-sm-3 col-xs-12 icon icon1"><img src="https://i.pinimg.com/564x/2f/82/a4/2f82a4fa8e2c21ef9121827c0ce57e45.jpg" alt=""/>
             <h4>Start</h4>
           </div>
-          <div class="col-sm-3 icon"><img src="https://i.pinimg.com/564x/af/cf/1b/afcf1b24141d2baafd00479a672ee3f7.jpg" alt=""/>
+          <div class="col-sm-3 col-xs-12 icon"><img src="https://i.pinimg.com/564x/af/cf/1b/afcf1b24141d2baafd00479a672ee3f7.jpg" alt=""/>
             <h4>Data Collection</h4>
           </div>
-          <div class="col-sm-3 icon"><img src="https://i.pinimg.com/564x/9a/43/a1/9a43a10bf4c5dc999a8a3e8b814b47f1.jpg" alt=""/>
+          <div class="col-sm-3 col-xs-12 icon"><img src="https://i.pinimg.com/564x/9a/43/a1/9a43a10bf4c5dc999a8a3e8b814b47f1.jpg" alt=""/>
             <h4>Data Analysis</h4>
           </div>
-          <div class="col-sm-3 icon"><img src="https://i.pinimg.com/564x/34/4c/a4/344ca4a23131a6c2d8b18970606aea84.jpg" alt=""/>
+          <div class="col-sm-3 col-xs-12 icon"><img src="https://i.pinimg.com/564x/34/4c/a4/344ca4a23131a6c2d8b18970606aea84.jpg" alt=""/>
             <h4>Result</h4>
           </div>
         </div>
@@ -101,31 +107,37 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="col-sm-4 pic1"></div>
-          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-center-top="transform: translateX(0px); opacity:1">
+          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-bottom="transform: translateX(0px); opacity:1">
             <h3>Early Prediction with High Accuracy</h3>
             <p>We train our model by the open-source database which contains measures of gait from PD patients and normal people. Therefore, our device can predict the PD severity level of users. Moreover, the accuracy of our model is about 90%.</p>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12">
           <hr/>
           <div class="col-sm-4 pic2"></div>
-          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-center-top="transform: translateX(0px); opacity:1">
+          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-bottom="transform: translateX(0px); opacity:1">
             <h3>Adaptability to Different Ways of Walking</h3>
             <p>By means of data preprocessing, our device is suitable for people with all kinds of weight, speeds, and ways of walking.</p>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12">
           <hr/>
           <div class="col-sm-4 pic3"></div>
-          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-center-top="transform: translateX(0px); opacity:1">
+          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-bottom="transform: translateX(0px); opacity:1">
             <h3>Excellent User Experience</h3>
             <p>Users are able to get a daily checkup in only 30 seconds with the simple user interface. Also, users are allowed to create their own accounts. Individual past data can be found once you log in.</p>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12">
           <hr/>
           <div class="col-sm-4 pic4"></div>
-          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-center-top="transform: translateX(0px); opacity:1">
+          <div class="col-sm-8" data-bottom-top="transform: translateX(50px); opacity:0" data-bottom="transform: translateX(0px); opacity:1">
             <h3>Himax WE-I Plus EVB Endpoint  AI Development Board</h3>
             <p>We apply the Himax WE-I Plus EVB Endpoint AI Development Board to deploy our model, which is ultra-low-power and capable of rapid inference.</p>
           </div>
@@ -136,24 +148,30 @@
   <section id="section_team">
     <div class="container">
       <div class="row">     
-        <div class="col-sm-12" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1">
-          <div class="col-sm-3 img"><img src="https://i.pinimg.com/564x/0d/ae/56/0dae56276851de519468507a1f84daaf.jpg" alt=""/>
+        <div class="col-sm-12 col-xs-12">
+          <div class="col-sm-3 col-xs-12 img" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1"><img src="https://i.pinimg.com/564x/0d/ae/56/0dae56276851de519468507a1f84daaf.jpg" alt=""/>
             <h4> Prof. Hung-Pin Wen</h4>
           </div>
-          <div class="col-sm-2 img"><img src="https://i.pinimg.com/564x/30/92/a1/3092a1c8cd2c837e2ec4cbb5739c4405.jpg" alt=""/>
-            <h4>蘇彥儒</h4>
+          <div class="col-sm-4 col-xs-12 members members1">
+            <div class="col-xs-6 img" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1"><img src="https://i.pinimg.com/564x/30/92/a1/3092a1c8cd2c837e2ec4cbb5739c4405.jpg" alt=""/>
+              <h4>蘇彥儒</h4>
+            </div>
+            <div class="col-xs-6 img" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1"><img src="https://i.pinimg.com/564x/43/6a/e2/436ae2be43e2e4bbe9d60143a0dc4bdd.jpg" alt=""/>
+              <h4>蔡涵雅</h4>
+            </div>
           </div>
-          <div class="col-sm-2 img"><img src="https://i.pinimg.com/564x/43/6a/e2/436ae2be43e2e4bbe9d60143a0dc4bdd.jpg" alt=""/>
-            <h4>蔡涵雅</h4>
-          </div>
-          <div class="col-sm-2 img"><img src="https://i.pinimg.com/564x/94/33/b9/9433b988120deec85eebfb2ee5f3f4d6.jpg" alt=""/>
-            <h4>王品棠</h4>
-          </div>
-          <div class="col-sm-2 img"><img src="https://i.pinimg.com/564x/76/9d/93/769d930874ec273b819cecb70caf9d94.jpg" alt=""/>
-            <h4>吳柏鋐</h4>
+          <div class="col-sm-4 col-xs-12 members">
+            <div class="col-xs-6 img" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1"><img src="https://i.pinimg.com/564x/94/33/b9/9433b988120deec85eebfb2ee5f3f4d6.jpg" alt=""/>
+              <h4>王品棠</h4>
+            </div>
+            <div class="col-xs-6 img" data-bottom-top="transform: translateY(-50px); opacity:0 " data-bottom="transform: translateY(0px);opacity:1"><img src="https://i.pinimg.com/564x/76/9d/93/769d930874ec273b819cecb70caf9d94.jpg" alt=""/>
+              <h4>吳柏鋐</h4>
+            </div>
           </div>
         </div>
-        <div class="col-sm-12">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
           <div class="col-sm-6 t" data-bottom-top="transform: translateX(-50px); opacity:0 " data-center-top="transform: translateX(0px);opacity:1">
             <h2>ForeLook</h2>
             <h3>from NYCU</h3>
@@ -167,7 +185,7 @@
     <div class="container">
       <h2>Any questions？</h2>
       <hr/>
-      <p>Please contact [  <a href="mailto:forelook1024@gmail.com" target="_blank">forelook1024@gmail.com</a><span class="p">] for more information.</span></p><br/><br/><a class="btn btn-danger" href="https://www.instagram.com/volleyball_su/" target="_blank">BUY NOW</a>
+      <p>Please contact [  <a href="mailto:forelook1024@gmail.com" target="_blank">forelook1024@gmail.com</a><span class="p">] for more information.</span></p><br/><br/><a class="btn btn-info" href="https://www.instagram.com/volleyball_su/" target="_blank">BUY NOW</a>
     </div>
   </footer>
 </div>
